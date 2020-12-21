@@ -6,6 +6,7 @@ fi
 sudo apt update
 sudo apt upgrade
 sudo apt install build-essential libcairo2-dev libjpeg62-turbo-dev libpng-dev libtool-bin libossp-uuid-dev libvncserver-dev freerdp2-dev libssh2-1-dev libtelnet-dev libwebsockets-dev libpulse-dev libvorbis-dev libwebp-dev libssl-dev libpango1.0-dev libswscale-dev libavcodec-dev libavutil-dev libavformat-dev tomcat9 tomcat9-admin tomcat9-common tomcat9-user tigervnc-standalone-server apache2 nano xfce4 xfce4-goodies certbot python3-certbot-apache
+sudo rm -r guacamole-server-1.2.0
 wget http://mirror.cc.columbia.edu/pub/software/apache/guacamole/1.2.0/source/guacamole-server-1.2.0.tar.gz
 tar -xvf guacamole-server-1.2.0.tar.gz
 sudo rm guacamole-server-1.2.0.tar.gz
